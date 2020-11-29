@@ -1,4 +1,4 @@
-#!/home/pascy/Documents/python-ip/pitch/virtual/bin/python
+#!/home/pascy/Documents/python-ip/one-minute-pitch/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/pascy/Documents/python-ip/pitch/virtual"
+set -gx VIRTUAL_ENV "/home/pascy/Documents/python-ip/one-minute-pitch/virtual"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
