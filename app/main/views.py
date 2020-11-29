@@ -72,3 +72,10 @@ def promotion_pitches():
     pitches = Pitch.get_pitches('promotion')
 
     return render_template("promotion_pitches.html", pitches=pitches)
+
+@main.route('/pitches/product_pitches')
+def product_pitches():
+
+    pitches = Pitch.get_pitches('product')
+
+    return render_template("product_pitches.html", pitches=pitches)
