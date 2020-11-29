@@ -1,27 +1,28 @@
 {% extends 'base.html'%}
-
 {% block content %}
-<div class="container">
+<div style="margin-top:30px;margin-left:30%" class="container ">
 <div class="row">
 <!-- displaying  Username-->
   <div class="col-md-4">
     <h3> {{user.username| capitalize}} </h3>
 
     {% if user.profile_pic_path %}
-    <img src="{{url_for('static',filename=user.profile_pic_path)}}" alt="" class="img-thumbnail">
+    <img style="width:200px;height:150px" src="{{url_for('static',filename=user.profile_pic_path)}}" alt="" class="img-thumbnail">
     {%else%}
-    <img src="{{url_for('static',filename='photos/default.png')}}" alt="" class="img-thumbnail">
-    <!-- <p>No profile picture</p> -->
+    <p>No profile picture</p>
     {% endif %}
     {% if user == current_user %}
-    <form  action="{{url_for('main.update_pic',username=user.username)}}" method="post" enctype = "multipart/form-data">
+    <form  action="{{url_for('main.update_pic',uname=user.username)}}" method="post" enctype = "multipart/form-data">
 
       <input type="file"  name="photo" class="form-control" required>
       <input type="submit" class="btn btn-primary">
     </form>
       {% endif %}
-
+      <p>Name: {{user.firstname}} {{user.lastname}} </p>
+      <p>No of piches: {{pitches}}</p>
+      <p>Date joined: {{date}}</p>
     <!--Displaying user bio-->
+    <!-- <h3>Bio</h3>
     {% if user.bio %}
       <p> {{user.bio}}</p>
     {%else%}
@@ -29,29 +30,9 @@
     {% endif %}
 
     {% if user == current_user %}
-        <a href="{{url_for('main.profle_update',username=user.username)}}" class="btn btn-primary">Edit profile</a>
-    {% endif %}
+        <a href="" class="btn btn-primary">Edit profile</a>
+    {% endif %} -->
   </div>
-
-  <!--Display profile photo-->
-  <!-- <div class="col-md-4"> -->
-      <h1>My Pitches</h1>
-      {% for mypitch in my_pitches %}
-      <div class="col-md-4">
-      <div class="panel panel-default">
-        <div class="panel-heading">My Pitch</div>
-        <div class="panel-body">
-          {{ mypitch.pitch }}
-      </div>
-      </div>
-    </div>
-      {% endfor %}
-
-  <!-- </div> -->
-</div>
-<div class="row">
-    
-
 </div>
 </div>
 {% endblock %}

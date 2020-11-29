@@ -1,0 +1,5 @@
+Hello {{user.username}}
+Welcome to Just Pitch It
+You have now registered up with us. We can't wait to see your pitches!!
+start sharing,
+Good luck.
