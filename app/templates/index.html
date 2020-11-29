@@ -10,16 +10,16 @@
 
 <!-- Content block -->
 {%block content%}
+<hr>
 
-<div id="one" style="margin-top:15%;margin-bottom:5%;font-family:fantasy;color:blue;font-weight:bolder" >
-    <h1> Welcome to one-minute Pitch!</h1>
-</div>
-<div class="container text-center" style="padding-bottom: 20px;">
+    <h1 style="margin-top:15%;margin-bottom:5%"> Welcome to one-minute Pitch!</h1>
+
+<div class="container text-center" style="padding-bottom: 5%">
     <a href="{{url_for('main.new_pitch')}}" class="btn btn-success">Create your own pitch</a>
 </div>
 
 <div class="container " style="font-family: 'Cormorant Upright', serif;">
-  <h3 class="text-center" style="text-decoration:underline;font-family:cursive sans-serif">one-minute Pitch categories</h3>
+  <h3 class="text-center">one-minute Pitch categories</h3>
     <div class="row">
         <div class="col-md-4">
             <div class="well well-lg">
@@ -38,7 +38,7 @@
         <div class="col-md-4">
             <div class="well well-lg">
                 <h3 class="text-info">Product Pitches</h3>
-                <p>Pitch with us products, and let's make profits out of it!</p>
+                <p>Pitch with us  any products, and let's make profits out of it and see what others think!</p>
                 <a href="{{url_for('main.product_pitches')}}" class="btn btn-primary -center">View added pitches</a>
             </div>
         </div>

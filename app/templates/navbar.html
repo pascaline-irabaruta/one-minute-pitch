@@ -10,9 +10,9 @@
                     <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pitch categories <span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a class="nav-link" href="{{url_for('main.business_pitches')}}">Business pitches</a></li>
-                            <li><a class="nav-link" href="{{url_for('main.product_pitches')}}">Product pitches</a></li>
-                            <li><a class="nav-link" href="{{url_for('main.promotion_pitches')}}">Promotion pitches</a></li>
+                            <li><a class="nav-link" style="color:black" href="{{url_for('main.business_pitches')}}">Business pitches</a></li>
+                            <li><a class="nav-link" style="color:black" href="{{url_for('main.product_pitches')}}">Product pitches</a></li>
+                            <li><a class="nav-link" style="color:black" href="{{url_for('main.promotion_pitches')}}">Promotion pitches</a></li>
                         </ul>
                     </li>
                     {% if current_user.is_authenticated %}
@@ -20,8 +20,8 @@
                             aria-haspopup="true" aria-expanded="false">{{current_user.username| capitalize}}<span
                                 ></span></a>
                         <ul class="dropdown-menu">
-                            <li><a class="nav-link" href="/profile/{{current_user.username}}">My Profile</a></li>
-                            <li><a class="nav-link" href="{{url_for('main.user_pitches', uname=current_user.username)}}">My pitches</a></li>
+                            <li><a class="nav-link" style="color:black" href="/profile/{{current_user.username}}">My Profile</a></li>
+                            <li><a class="nav-link" style="color:black" href="{{url_for('main.user_pitches', uname=current_user.username)}}">My pitches</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
