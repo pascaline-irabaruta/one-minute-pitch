@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/pascy/Documents/python-ip/one-minute-pitch/virtual"
+VIRTUAL_ENV="/home/kevin/Documents/moringa-school-projects/python-projects/the-pitch/virtual"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

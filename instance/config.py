@@ -1,2 +1,0 @@
-# API_KEY = 'c0755b40e90cce0f1b45cc66f9e5d7a8'
-SECRET_KEY = 'c0755b40e90cce0f1b45cc66f9e5d7a8'
