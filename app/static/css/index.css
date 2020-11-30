@@ -1,7 +1,7 @@
 
 body{
-  background-image: url("https://d1eipm3vz40hy0.cloudfront.net/images/blog/sales-pitch-examples-blog-header.png");
-
+  /* background-image: url("https://d1eipm3vz40hy0.cloudfront.net/images/blog/sales-pitch-examples-blog-header.png"); */
+  background-color: black;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -11,7 +11,6 @@ img {
   height: 100px;
 }
 #one {
-  background-color: rgba(0,0,0,0.6);
   font-family: fantasy;
 }
 .title {
