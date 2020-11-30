@@ -1,5 +1,4 @@
 
-
 {% extends 'base.html'%}
 {% import 'macros.html' as macro%}
 {% import "bootstrap/wtf.html" as wtf %}
@@ -21,11 +20,11 @@
         <p>{{pitch.pitch_content}}</p>
         <span>
         <p>Posted on {{date}} by {{pitch.user.username| capitalize}}</p>
-        <a href="/pitch/{{pitch.id}}?like=1">
+        <p>like <a href="/pitch/{{pitch.id}}?like=1">
             <i class="fa fa-thumbs-up" ></i>
-        </a>{{pitch.likes}} <a href="/pitch/{{pitch.id}}?dislike=1">
+        </a> dislike {{pitch.likes}} <a href="/pitch/{{pitch.id}}?dislike=1">
             <i class="fa fa-thumbs-down"></i>
-        </a>{{pitch.dislikes}}</span>
+        </a>{{pitch.dislikes}}</p></span>
         <h5 style="text-decoration:underline">Comments</h5>
         {{macro.displayComments(comments)}}
       </div>
