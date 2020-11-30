@@ -22,7 +22,7 @@
         <p>Posted on {{date}} by {{pitch.user.username| capitalize}}</p>
         <p>like <a href="/pitch/{{pitch.id}}?like=1">
             <i class="fa fa-thumbs-up" ></i>
-        </a> dislike {{pitch.likes}} <a href="/pitch/{{pitch.id}}?dislike=1">
+        </a> {{pitch.likes}}  dislike<a href="/pitch/{{pitch.id}}?dislike=1">
             <i class="fa fa-thumbs-down"></i>
         </a>{{pitch.dislikes}}</p></span>
         <h5 style="text-decoration:underline">Comments</h5>
