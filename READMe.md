@@ -1,5 +1,5 @@
-# Pitch
-####  This is a web app that allows users to view submit and comment on various categories of one minute pitches.
+# One-minute-Pitch
+## Author
 #### By **Pascaline Irabaruta**
 ## Link to live site
 You can view the site here ---> https://oneminutepitches.herokuapp.com/
@@ -54,5 +54,6 @@ chmod a+x start.sh
 ## Support and contact details
 if you run into any issues please contact pascyirabaruta456@gmail.com
 ### License
-*MIT*
+This project is license  by MIT for more information visit [LICENSE.md](LICENSE.md) .
+### copyright information
 Copyright (c) 2020 **Pascaline Irabaruta**
