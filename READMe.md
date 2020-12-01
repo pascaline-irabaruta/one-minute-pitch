@@ -1,6 +1,6 @@
 # One-minute-Pitch
 ## Author
-#### By **Pascaline Irabaruta**
+**Pascaline Irabaruta**
 ## Link to live site
 You can view the site here ---> https://oneminutepitches.herokuapp.com/
 
