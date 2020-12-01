@@ -1,6 +1,6 @@
 # Pitch
-####  This is a web app that allows users to view submit and comment on various categories of one minuite pitches,15-Sep-2019
-#### By **Kingecha Kevin Nyota**
+####  This is a web app that allows users to view submit and comment on various categories of one minute pitches.
+#### By **Pascaline Irabaruta**
 ## Link to live site
 You can view the site here ---> https://oneminutepitches.herokuapp.com/
 
@@ -55,4 +55,4 @@ chmod a+x start.sh
 if you run into any issues please contact pascyirabaruta456@gmail.com
 ### License
 *MIT*
-Copyright (c) 2019 **Pascaline Irabaruta**
+Copyright (c) 2020 **Pascaline Irabaruta**
