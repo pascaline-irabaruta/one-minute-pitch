@@ -48,7 +48,7 @@ h1 {
     color: white;
 }
 .navbar-brand span{
-    color: tomato;
+    color: red;
     font-family: 'Lobster', cursive;
     font-style: italic;
 }
@@ -67,7 +67,7 @@ h1 {
     border-radius: 1px;
 }
 .active a{
-  color: tomato;
+  color: red;
 }
 .active a:hover{
     color: white;
